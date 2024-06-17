@@ -2,6 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.T4ME" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/neondarkgreen</item>
+        <item name="colorSecondary">@color/neonlightgreen</item>
+        <item name="colorTertiary">@color/gray</item>
     </style>
 </resources>

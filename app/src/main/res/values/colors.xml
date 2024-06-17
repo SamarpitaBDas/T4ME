@@ -3,4 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="Sage">#ACBDA1</color>
+    <color name="gray">#BEC3BB</color>
+    <color name="darkgreen">#97A18D</color>
+    <color name="neondarkgreen">#0E4135</color>
+    <color name="neonlightgreen">#558479</color>
+
+
 </resources>

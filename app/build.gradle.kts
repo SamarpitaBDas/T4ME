@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.t4me"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.t4me"

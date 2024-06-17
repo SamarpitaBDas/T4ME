@@ -7,35 +7,34 @@ import com.example.t4me.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding : ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // Set up initial fragment
         replaceFragment(HomeFragment())
 
-        binding.bottomNavigationView.setOnItemSelectedListener {
-            when(it.itemId){
-                R.id.home->replaceFragment(HomeFragment())
-                R.id.chat->replaceFragment(ChatFragment())
-                R.id.report->replaceFragment(ReportFragment())
-                R.id.schedule->replaceFragment(ScheduleFragment())
-                R.id.setting->replaceFragment(ScheduleFragment())
+        // Select the middle icon initially
+        binding.bottomNavigationView.selectedItemId = R.id.home
 
-                else->{
-
-                }
+        binding.bottomNavigationView.setOnItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.home -> replaceFragment(HomeFragment())
+                R.id.chat -> replaceFragment(ChatFragment())
+                R.id.report -> replaceFragment(ReportFragment())
+                R.id.schedule -> replaceFragment(ScheduleFragment())
+                R.id.setting -> replaceFragment(SettingFragment())
             }
             true
         }
-
     }
-    private fun replaceFragment(fragment: Fragment){
-        val fragmentManager = supportFragmentManager
-        val fragmentTransaction =  fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.frame_layout,fragment)
-        fragmentTransaction.commit()
+
+    private fun replaceFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.frame_layout, fragment)
+            .commit()
     }
 }
-
-
