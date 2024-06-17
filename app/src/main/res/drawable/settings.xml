@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Path for the shield shape -->
+    <path
+        android:pathData="M3.08168,13.9445
+            C2.55298,12.9941 2.28862,12.5188 2.28862,12
+            C2.28862,11.4812 2.55298,11.0059 3.08168,10.0555
+            L4.43094,7.63
+            L5.85685,5.24876
+            C6.4156,4.31567 6.69498,3.84912 7.14431,3.5897
+            C7.59364,3.33028 8.13737,3.3216 9.22483,3.30426
+            L12,3.26
+            L14.7752,3.30426
+            C15.8626,3.3216 16.4064,3.33028 16.8557,3.5897
+            C17.305,3.84912 17.5844,4.31567 18.1431,5.24876
+            L19.5691,7.63
+            L20.9183,10.0555
+            C21.447,11.0059 21.7114,11.4812 21.7114,12
+            C21.7114,12.5188 21.447,12.9941 20.9183,13.9445
+            L19.5691,16.37
+            L18.1431,18.7512
+            C17.5844,19.6843 17.305,20.1509 16.8557,20.4103
+            C16.4064,20.6697 15.8626,20.6784 14.7752,20.6957
+            L12,20.74
+            L9.22483,20.6957
+            C8.13737,20.6784 7.59364,20.6697 7.14431,20.4103
+            C6.69498,20.1509 6.4156,19.6843 5.85685,18.7512
+            L4.43094,16.37
+            L3.08168,13.9445
+            Z"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Circle shape -->
+    <path
+        android:pathData="M12,12
+            m-3,0
+            a3,3 0 1,0 6,0
+            a3,3 0 1,0 -6,0"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent" />
+
+</vector>

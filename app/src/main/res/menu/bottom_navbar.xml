@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="chat"
+        android:id="@+id/chat"
+        android:icon="@drawable/chat"/>
+    <item
+        android:title="schedule"
+        android:id="@+id/schedule"
+        android:icon="@drawable/baseline_calendar_today_24"/>
+    <item
+        android:title="home"
+        android:id="@+id/home"
+        android:icon="@drawable/home"/>
+    <item
+        android:title="report"
+        android:id="@+id/report"
+        android:icon="@drawable/report"/>
+    <item
+        android:title="setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/settings"/>
+</menu>
