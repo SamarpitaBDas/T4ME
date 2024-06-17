@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "100957894680",
+    "project_id": "t4me-4714e",
+    "storage_bucket": "t4me-4714e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100957894680:android:958ef1f5a34b672975eb6d",
+        "android_client_info": {
+          "package_name": "com.example.t4me"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1JJ1gWD1TPPZ-f6HCqM-YmFMkvrgn2LE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
